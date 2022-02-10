@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthService } from './services/auth.service';
+// import { AuthService } from './services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +7,8 @@ import { AuthService } from './services/auth.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(public auth: AuthService) {
-    auth.renewAuth();
-    auth.handleLoginCallback();
-  }
+  // constructor(public auth: AuthService) {
+  //   auth.renewAuth();
+  //   auth.handleLoginCallback();
+  // }
 }
